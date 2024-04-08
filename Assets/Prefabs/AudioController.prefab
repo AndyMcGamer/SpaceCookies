@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7200822009923647899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1982870390916759429}
+  - component: {fileID: 8569853077800835167}
+  m_Layer: 0
+  m_Name: AudioController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1982870390916759429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7200822009923647899}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8569853077800835167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7200822009923647899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3eb2c79b7281ea468f0b4abbf3fca7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 0}
+  sounds:
+  - name: Theme
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 051168dd3f18b614cb273426a6521fb5, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+  - name: Shoot
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: c6fca7ac3dd7c4c49952e65cb7876bb3, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Powerup
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: dac224b660631b34d960ef4fefcc6f43, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: LevelUp
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 8bd01ccb545722c408db7d7bbe4d4219, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Death
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: cad29e999f36bde4ca655c1cb0d70546, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: AsteroidDeath
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 226e50c10678d8543a9c901c77400ad4, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Blip
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: cd88989e003123f408ec1008a1b83859, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Hit
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: a3fe4eb3afcf4854fae6d83bf83487ac, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
